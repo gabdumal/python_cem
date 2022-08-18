@@ -1,0 +1,7 @@
+nome = str(input('Digite seu nome: '))
+print('O nome em letras maiúsculas é {}'.format(nome.upper()))
+print('O nome em letras minúsculas é {}'.format(nome.lower()))
+print('O total de letras no nome {} é {}'.format(nome, len(nome) - nome.count(' ')))
+posEspaco = nome.find(' ')
+numLetrasPrimeiroNome = len(nome[0:posEspaco])
+print('O total de letras no primeiro nome, {}, é {}'.format(nome, numLetrasPrimeiroNome))
